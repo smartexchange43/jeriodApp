@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #fff;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0 1em;
+}
+.contentSec {
+  padding: 2em 0 0;
+}
+.title {
+  font-size: 1.54em;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.3em;
+}
+.formSec {
+  width: 100%;
+  height: 80dvh;
+  background: #fff;
+  border-top-right-radius: 1.5em;
+  border-top-left-radius: 1.5em;
+  padding: 2em 0;
+  margin-top: 5em;
+}
+.formPin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.formPin input {
+  width: 56px;
+  height: 55px;
+  outline: none;
+  font-weight: 900;
+  font-size: 2em;
+  background: #fff;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+form.formMyPin input {
+  margin-left: 0;
+
+
+}
+.buttonSec {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+button {
+  width: 100%;
+  height: 3rem;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  background: #070D49;
+  color: #fff;
+  display: block;
+  margin-top: 5em;
+}
+
+
+.resendCode {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+}
+
+.resendCode b {
+  color: #070D49; /* or any color you prefer */
+}
