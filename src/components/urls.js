@@ -1,3 +1,3 @@
-const BASE_URL = "https://jeriod-sever.vercel.app";
+const BASE_URL = "https://jeriod-sever-seven.vercel.app";
 
 export default BASE_URL;
